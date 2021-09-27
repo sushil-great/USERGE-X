@@ -211,11 +211,11 @@ async def kang_(message: Message):
             await message.delete()
         else:
             out = (
-                "__kanged__"
+                "__This Belongs to My Master Now__"
                 if "-s" in message.flags
                 else f"[kanged](t.me/addstickers/{packname})"
             )
-            await message.edit(f"**Sticker** {out}**!**")
+            await message.edit(f"**Sticker Stolen** {out}**!**")
         if os.path.exists(str(photo)):
             os.remove(photo)
 
