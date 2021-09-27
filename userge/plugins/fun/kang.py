@@ -89,11 +89,11 @@ async def kang_(message: Message):
         ):
             emoji_ = None
         if not emoji_:
-            emoji_ = "🤔"
+            emoji_ = "🤖"
 
         u_name = user.username
         u_name = "@" + u_name if u_name else user.first_name or user.id
-        packname = f"a{user.id}_by_x_{pack}"
+        packname = f"Sg_kanged_pack_by_x_{pack}"
         custom_packnick = Config.CUSTOM_PACK_NAME or f"{u_name}'s kang pack"
         packnick = f"{custom_packnick} Vol.{pack}"
         cmd = "/newpack"
@@ -123,7 +123,7 @@ async def kang_(message: Message):
                 limit = "50" if is_anim else "120"
                 while limit in msg.text:
                     pack += 1
-                    packname = f"a{user.id}_by_userge_{pack}"
+                    packname = f"Sg_kanged_pack_by_x_{pack}"
                     packnick = f"{custom_packnick} Vol.{pack}"
                     if is_anim:
                         packname += "_anim"
@@ -274,6 +274,9 @@ def resize_photo(photo: str) -> io.BytesIO:
 
 
 KANGING_STR = (
+    "Chori iz doing chori, piliz look awayy",
+    "Free ka sticker, Chura leta hu kisi ko kya hi pata chalega",
+    "The meowchor is here, now gib this sticker",
     "Using Witchery to kang this sticker...",
     "Plagiarising hehe...",
     "Inviting this sticker over to my pack...",
