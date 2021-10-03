@@ -1,9 +1,8 @@
-# New Update Soon😅
-from userge import Config, userge
+#New Update Soon😅
+from userge import Config, Message, userge
 
-
-@userge.on_message(filters.command("save", [Config.CMD_TRIGGER, Config.SUDO_TRIGGER]))
-async def savemsg(userge, message):
-    await userge.forward_messages(
-        "me", message.chat.id, message.reply_to_message.message_id
-    )
+@userge.on_cmd(
+    "save", about={"header": "Save message"}, allow_channels=True
+)
+async def savemsg(message: Message):
+    await userge.forward_messages("me",message.chat.id,message.reply_to_message.message_id)
