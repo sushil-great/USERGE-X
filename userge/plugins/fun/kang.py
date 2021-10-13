@@ -274,13 +274,16 @@ def resize_photo(photo: str) -> io.BytesIO:
 
 
 KANGING_STR = (
-    "Chori iz doing chori, piliz look awayy",
+    "Chorr iz doing chori, piliz look awayy",
     "Free ka sticker, Chura leta hu kisi ko kya hi pata chalega",
     "The meowchor is here, now gib this sticker",
     "Using Witchery to kang this sticker...",
     "Plagiarising hehe...",
     "Inviting this sticker over to my pack...",
     "Kanging this sticker...",
+    "**Fine!**\nI will Steal It Myself!",
+    "Ab roke kya fayada jab chor ki dikha hi diya sticker",
+    "What a noimce sticker \nNow it shall be **MINE**,
     "Hey that's a nice sticker!\nMind if I kang?!..",
     "hehe me stel ur stikér\nhehe.",
     "Ay look over there (☉｡☉)!→\nWhile I kang this...",
