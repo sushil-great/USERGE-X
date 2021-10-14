@@ -283,7 +283,7 @@ KANGING_STR = (
     "Kanging this sticker...",
     "**Fine!**\nI will Steal It Myself!",
     "Ab roke kya fayada jab chor ki dikha hi diya sticker",
-    "What a noimce sticker \nNow it shall be **MINE**,
+    "What a noimce sticker \nNow it shall be **MINE**",
     "Hey that's a nice sticker!\nMind if I kang?!..",
     "hehe me stel ur stikér\nhehe.",
     "Ay look over there (☉｡☉)!→\nWhile I kang this...",
