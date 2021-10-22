@@ -159,7 +159,7 @@ async def kang_(message: Message):
                             out = (
                                 "__This Belongs to My Master Now__"
                                 if "-s" in message.flags
-                                else f"[kanged](t.me/addstickers/{packname})"
+                                else f"[find it](t.me/addstickers/{packname})"
                             )
                             await message.edit(
                                 f"**Sticker Stolen Sur** {out} __in a Different Pack__**!**"
@@ -213,7 +213,7 @@ async def kang_(message: Message):
             out = (
                 "__This Belongs to My Master Now__"
                 if "-s" in message.flags
-                else f"[kanged](t.me/addstickers/{packname})"
+                else f"[here](t.me/addstickers/{packname})"
             )
             await message.edit(f"**Sticker Stolen** {out}**!**")
         if os.path.exists(str(photo)):
@@ -281,8 +281,10 @@ KANGING_STR = (
     "Plagiarising hehe...",
     "Inviting this sticker over to my pack...",
     "Kanging this sticker...",
+    "hey the sticker thief went that way >>>>>",
+    "Thought you could hide a good sticker?\nAbsolutely NO you cant hahaha!",
     "**Fine!**\nI will Steal It Myself!",
-    "Ab roke kya fayada jab chor ki dikha hi diya sticker",
+    "Ab roke kya fayada jab chor ko dikha hi diya sticker",
     "What a noimce sticker \nNow it shall be **MINE**",
     "Hey that's a nice sticker!\nMind if I kang?!..",
     "hehe me stel ur stikér\nhehe.",
