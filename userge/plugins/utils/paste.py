@@ -30,14 +30,14 @@ NEKOBIN_URL = "https://nekobin.com/"
     del_pre=True,
 )
 async def paste_(message: Message) -> None:
-    """ pastes the text directly to dogbin or nekobin """
+    """pastes the text directly to dogbin or nekobin"""
     await message.edit("`Processing...`")
     text = message.filtered_input_str
     replied = message.reply_to_message
     use_neko = False
     file_ext = ".txt"
     if not text and replied:
-        if replied.document and replied.document.file_size < 2 ** 20 * 10:
+        if replied.document and replied.document.file_size < 2**20 * 10:
             file_ext = os.path.splitext(replied.document.file_name)[1]
             path = await replied.download(Config.DOWN_PATH)
             with open(path, "r") as d_f:
@@ -96,7 +96,7 @@ async def paste_(message: Message) -> None:
     },
 )
 async def get_paste_(message: Message):
-    """ fetches the content of a dogbin or nekobin URL """
+    """fetches the content of a dogbin or nekobin URL"""
     link = message.input_str
     if not link:
         await message.err("input not found!")
